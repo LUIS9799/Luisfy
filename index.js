@@ -1,8 +1,6 @@
 //CodedByLuis
 
 const fs =  require("fs");
-const express = requiere("express>")
-const http = require ("http")
 const express = require("express");
 const ws = require("ws");
 const http = require("http");
@@ -35,4 +33,10 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/backend/auth/register/index.php");
     render();
   });
-  
+
+  server.listen(port);
+function render() {
+console.log("CreatedByLuis9799")
+console.log("Github: https://github.com/LUIS9799")
+console.log("#LuisNet https://luisweb.cf")
+}
